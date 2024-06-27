@@ -1,4 +1,4 @@
-import images from './images';
+
 
 const curry = [
   {
@@ -47,27 +47,5 @@ const Tawa = [
   },
 ];
 
-const awards = [
-  {
-    imgUrl: images.award02,
-    title: 'Bib Gourmond',
+export default {curry,Tawa};
 
-  },
-  {
-    imgUrl: images.award01,
-    title: 'Rising Star',
-
-  },
-  {
-    imgUrl: images.award05,
-    title: 'AA Hospitality',
-
-  },
-  {
-    imgUrl: images.award03,
-    title: 'Outstanding Chef',
-
-  },
-];
-
-export default { curry, Tawa, awards };

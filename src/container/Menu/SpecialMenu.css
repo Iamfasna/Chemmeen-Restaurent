@@ -52,11 +52,8 @@
   display: block;
 }
 
-.curry-div {}
 
-.Tawa-div {}
-
-@media screen and (max -width:2000px) {
+@media screen and (max-width:2000px) {
   .app__specialMenu-menu {
     flex-direction: column;
     align-items: center;

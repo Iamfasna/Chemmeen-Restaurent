@@ -1,7 +1,5 @@
 import React from 'react';
-
 import './Footer.css';
-import { FiInstagram } from 'react-icons/fi';
 
 const Footer = () => (
   <div className='app__footer section__padding' id='contact'>

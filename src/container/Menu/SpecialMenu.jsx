@@ -13,7 +13,7 @@ const SpecialMenu = () => (
     <div className='main-div'>
       <div className='curry-div'>
         <div className='app__specialMenu-menu_img'>
-          <img src={images.fishcurry} />
+          <img src={images.fishcurry} alt='curry'/>
         </div>
         <div className='app__specialMenu-menu' >
           <div className='app__specialMenu-menu_curry'>
@@ -29,7 +29,7 @@ const SpecialMenu = () => (
 
       <div className='Tawa-div'>
         <div className='app__specialMenu-menu_img'>
-          <img src={images.Tawa} />
+          <img src={images.Tawa} alt='tawa'/>
         </div>
         <div className='app__specialMenu-menu' >
           <div className='app__specialMenu-menu_Tawa'>
