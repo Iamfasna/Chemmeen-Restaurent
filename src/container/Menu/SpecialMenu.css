@@ -27,18 +27,18 @@
   width: 100%;
   margin-top: 30px;
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
   align-items: flex-start;
   flex-direction: row;
   color: white;
   font-size: 30px;
   margin-left: 40px;
-  display: flex;
   margin-bottom: 50px;
 }
 
 .app__specialMenu-menu p {
-  align-items: center;
+  justify-content: start;
+  align-items: flex-start;
 }
 
 .app__specialMenu-menu_img img {
@@ -46,8 +46,12 @@
   height: 300px;
   border-radius: 30px;
   margin-left: 30px;
+  justify-content: start;
 }
-
+.app__specialMenu-menu_items{
+  justify-content: start;
+  align-items: start;
+}
 .app__specialMenu-menu_curry {
   display: block;
 }

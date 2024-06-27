@@ -47,5 +47,5 @@ const Tawa = [
   },
 ];
 
-export default {curry,Tawa};
+export {curry,Tawa};
 
