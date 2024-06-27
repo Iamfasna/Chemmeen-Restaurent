@@ -1,0 +1,32 @@
+.app__header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.app__wrapper__info {
+  flex: 1;
+}
+
+.app__header-h1 {
+  font-family: var(--font-base);
+  color: var(--color-golden);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  line-height: 117px;
+  font-size: 70px;
+}
+
+.app__wrapper_img {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.app__wrapper_img img {
+  width: 80%;
+  border-radius: 40px;
+  background-color: black;
+}
