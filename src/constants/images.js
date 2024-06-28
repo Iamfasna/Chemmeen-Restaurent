@@ -22,7 +22,7 @@ import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
 import gericht from '../assets/gericht.png';
 
-export  {
+export {
   bg,
   chef,
   G,
