@@ -2,7 +2,7 @@ import React from 'react';
 
 import './SpecialMenu.css';
 import { SubHeading, MenuItem } from '../../components';
-import {fishcurry,Tawa} from '../../constants/images';
+import {images} from '../../constants/images';
 import {data} from '../../constants/data';
 
 const SpecialMenu = () => (

@@ -1,5 +1,3 @@
-
-
 const curry = [
   {
     title: 'Meals',
@@ -20,7 +18,6 @@ const curry = [
   {
     title: 'Neymeen',
     price: 'Rs 400',
-
   },
 ];
 
@@ -47,5 +44,7 @@ const Tawa = [
   },
 ];
 
-export {curry,Tawa};
+const data = { curry, Tawa };
 
+export { curry, Tawa };
+export default data;
