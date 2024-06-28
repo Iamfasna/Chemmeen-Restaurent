@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../constants/images'
+import { images } from '../../constants'
 import './AboutUs.css';
 
 const AboutUs = () => (
@@ -19,7 +19,7 @@ const AboutUs = () => (
           Here at Chemmeen Naadan SeaFood Restaurant, we're not just passionate about seafood, we're passionate about sharing it with you.</p>
       </div>
       <div className='app__aboutus-content_knife'>
-        <img src={images.knife} alt='about_knife'/>
+        <img src={images.knife} alt='about_knife' />
       </div>
       <div className='app__aboutus-content_history '>
         <h1 className='headtext__cormorant'>Our History</h1>
