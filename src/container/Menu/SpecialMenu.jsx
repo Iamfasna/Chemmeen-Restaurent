@@ -2,8 +2,8 @@ import React from 'react';
 
 import './SpecialMenu.css';
 import { SubHeading, MenuItem } from '../../components';
-import {images} from '../../constants/images';
-import {data} from '../../constants/data';
+import {images} from '../../constants';
+import {data} from '../../constants';
 
 const SpecialMenu = () => (
   <div className='app__specialMenu flex__center' id='menu'>
