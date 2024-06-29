@@ -6,8 +6,12 @@ import images from '../../constants/images'
 import './Navbar.css';
 
 const Navbar = () => {
+  const [toggleMenu, setToggleMenu] = useState(false);
 
-  const [toggleMenu, setToggleMenu] = useState(false)
+  const handleMenuClick = (sectionId) => {
+    setToggleMenu(false);
+    document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+  };
 
   return (
     <nav className='app__navbar'>
@@ -27,20 +31,16 @@ const Navbar = () => {
           <div className='app__navbar-smallscreen_overlay flex__center slide-bottom'>
             <MdOutlineRestaurantMenu fontSize={27} className="overlay__close" onClick={() => setToggleMenu(false)} />
             <ul className='app__navbar-smallscreen-links'>
-              <li className='p__opensans'><a href='#home'>HOME</a></li>
-              <li className='p__opensans'><a href='#about'>ABOUT</a></li>
-              <li className='p__opensans'><a href='#menu'>MENU</a></li>
-              <li className='p__opensans'><a href='#contact'>CONTACT</a></li>
+              <li className='p__opensans'><a href='#home' onClick={() => handleMenuClick('home')}>HOME</a></li>
+              <li className='p__opensans'><a href='#about' onClick={() => handleMenuClick('about')}>ABOUT</a></li>
+              <li className='p__opensans'><a href='#menu' onClick={() => handleMenuClick('menu')}>MENU</a></li>
+              <li className='p__opensans'><a href='#contact' onClick={() => handleMenuClick('contact')}>CONTACT</a></li>
             </ul>
           </div>
-        )
-
-        }
-
-
+        )}
       </div>
-    </nav >
-  )
-}
+    </nav>
+  );
+};
 
 export default Navbar;
