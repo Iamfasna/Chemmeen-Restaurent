@@ -7,7 +7,6 @@ const Footer = () => (
       <div className='content-div'>
         <div className='heading'>Contact Us</div>
         <div className='content-inside'>
-          <p><a href="tel:+919037741923">+91 9037741923</a></p>
           <p><a href="tel:+919947258954">+91 9947258954</a></p>
           <p><a href="tel:+919645350857">+91 9645350857</a></p>
           <p><a href="tel:+917736520859">+91 7736520859</a></p>
